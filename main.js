@@ -32,3 +32,5 @@ let myAgeInDogYears = earlyYears + laterYears;
 let myName = "Eva".toLowerCase();
 // console.log(myName)
 
+//using string interpolation to display name and age in dog years
+console.log(`My name ia ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`);
